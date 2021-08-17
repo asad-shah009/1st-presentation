@@ -1,0 +1,446 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	header{
+	padding-top: 25px !important;
+	}
+	.header-content-padding{
+	padding-top: 25px !important;
+	padding-bottom: 40px !important;
+	}
+	.logo{
+		width: 80%;
+	}
+	.menu ul li a{
+	font-size: 15px !important;
+	margin-top: 15px;
+	text-align: center;
+	}
+	.navbar-toggler:focus {
+     box-shadow: 0 0 0 0!important; 
+	}
+	.common-title {
+    font-size: 17px !important;
+	}
+	.header-btn{
+	margin-top: 15px !important;
+	padding: 12px 25px !important;
+	font-size: 16px !important;
+	}
+	/*header end*/
+
+	/*service start*/
+	.service-section{
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+	}
+	.service-content {
+    margin-top: 20px !important;
+	}
+	.common-p {
+    font-size: 15px !important;
+	}
+	.service-title {
+	margin-top: 30px !important;
+    font-size: 21px !important;
+	}
+	.service-p {
+	margin-top: 10px !important;
+    padding: 0 25px !important;
+	}
+	.service-img2{
+		margin-top: 25px !important;
+	}
+	.service-img{
+		margin-top: 25px !important;
+	}
+	/*service end*/
+
+	/*team start*/
+	.team-section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+	}
+	.team-content {
+    margin-top: 20px !important;
+	}
+	.team-item{
+		margin-top: 25px !important;
+	}
+	/*team end*/
+
+	/*skill start*/
+	.skill-content {
+    margin-top: 20px !important;
+	}
+	.skill-item {
+    margin-top: 25px !important;
+	}
+	.skill-section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+	}
+	/*skill end*/
+
+	/*portfolio start*/
+	.portfolio-section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+	}
+	.portfolio-content {
+    margin-top: 20px !important;
+	}
+	.portfolio-btn ul li a {
+    padding: 3px 3px !important;
+    width: 50px !important;
+    height: 30px !important;
+    font-size: 16px !important;
+	}
+	.portfolio-content h3 {
+    margin-top: 25px !important;
+    font-size: 16px !important;
+	}
+	.portfolio-item{
+		margin-top: 25px !important;
+	}
+	.portfolio-project_btn{
+    padding-top: 50px !important;
+	}
+	/*portfolio end*/
+
+	/*about start*/
+	.about-section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+	}
+	.about-content{
+	margin-top: 20px !important;
+	}
+	.about-item-1{
+	margin-top: 25px !important;
+	}
+	.about-item-2{
+	margin-top: 25px !important;
+	}
+	.about-item-3{
+	margin-top: 25px !important;
+	}
+	.about-item-4{
+	margin-top: 25px !important;
+	}
+	.quotation {
+    font-size: 18px !important;
+	}
+	/*about end*/
+
+	/*touch start*/
+	.touch-section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+	}
+	.touch-content {
+    margin-top: 20px !important;
+	}
+	.touch-item2{
+		margin-top: 25px !important;
+	}
+	.touch-p{
+		padding: 0 20px;
+	}
+	/*touch end*/
+
+	/*footer start*/
+	.footer-menu li a {
+    margin-right: 5px !important;
+    font-size: 18px !important; 
+	}
+	/*footer end*/
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	header{
+	padding-top: 35px !important;
+	}
+	.header-content-padding{
+	padding-top: 60px !important;
+	padding-bottom: 75px !important;
+	}
+	.menu ul li a{
+	margin-top: 15px;
+	text-align: center;
+	}
+	.navbar-toggler:focus {
+     box-shadow: 0 0 0 0!important; 
+	}
+	.common-title {
+    font-size: 25px !important;
+	}
+	.header-btn{
+	margin-top: 25px !important;
+	padding: 16px 55px !important;
+	}
+	/*header end*/
+
+	/*service start*/
+	.service-section{
+	padding-top: 60px !important;
+	padding-bottom: 60px !important;
+	}
+	.service-content {
+    margin-top: 40px !important;
+	}
+	.common-p {
+    font-size: 16px !important;
+	}
+	.service-title {
+	margin-top: 35px !important;
+    font-size: 21px !important;
+	}
+	.service-p {
+	margin-top: 15px !important;
+    padding: 0 25px !important;
+	}
+	.service-img{
+		margin-top: 25px !important;
+	}
+	/*service end*/
+
+	/*team start*/
+	.team-section {
+    padding-top: 60px !important;
+	padding-bottom: 60px !important;
+	}
+	.team-content {
+    margin-top: 40px !important;
+	}
+	.team-item{
+		margin-top: 25px !important;
+	}
+	.team-icon{
+		margin-bottom: 20px !important;
+	}
+	/*team end*/
+
+	/*skill start*/
+	.skill-section {
+    padding-top: 60px !important;
+	padding-bottom: 60px !important;
+	}
+	.skill-content {
+    margin-top: 40px !important;
+	}
+	.skill-item {
+    margin-top: 25px !important;
+	}
+	/*skill end*/
+
+	/*portfolio start*/
+	.portfolio-section {
+    padding-top: 60px !important;
+	padding-bottom: 60px !important;
+	}
+	.portfolio-content {
+    margin-top: 40px !important;
+	}
+	.portfolio-item {
+    margin-top: 25px !important;
+	}
+	.portfolio-project_btn {
+    padding-top: 55px !important;
+	}
+	/*portfolio end*/
+
+	/*about start*/
+	.about-section {
+    padding-top: 60px !important;
+	padding-bottom: 60px !important;
+	}
+	.about-content {
+    margin-top: 40px !important;
+	}
+	.about-item-1{
+	margin-top: 10px !important;
+	}
+	.about-item-2{
+	margin-top: 25px !important;
+	}
+	.about-item-3{
+	margin-top: 25px !important;
+	}
+	.about-item-4{
+	margin-top: 25px !important;
+	}
+	.quotation {
+    font-size: 19px;
+	}
+	/*about end*/
+
+	/*touch start*/
+	.touch-section {
+    padding-top: 60px !important;
+	padding-bottom: 60px !important;
+	}
+	.touch-content {
+    margin-top: 40px !important;
+	}
+	.touch-item2{
+		margin-top: 25px !important;
+	}
+	.touch-p{
+		padding: 0 60px;
+	}
+	/*touch end*/
+
+	/*footer start*/
+	.footer-menu li a {
+    margin-right: 20px !important;
+    font-size: 20px !important; 
+	}
+	/*footer end*/
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	header{
+	padding-top: 45px !important;
+	}
+	.header-content-padding{
+	padding-top: 80px !important;
+	padding-bottom: 100px !important;
+	}
+	.menu ul li a{
+	margin-top: 15px;
+	text-align: right;
+	}
+	.navbar-toggler:focus {
+     box-shadow: 0 0 0 0!important; 
+	}
+	.common-title {
+    font-size: 33px !important;
+	}
+	.header-btn{
+	margin-top: 35px !important;
+	padding: 16px 75px !important;
+	}
+	/*header end*/
+
+	/*service start*/
+	.service-section{
+	padding-top: 90px !important;
+	padding-bottom: 90px !important;
+	}
+	.service-content {
+    margin-top: 60px !important;
+	}
+	.service-title {
+	margin-top: 40px !important;
+    font-size: 21px !important;
+	}
+	.service-p {
+	margin-top: 20px !important;
+    padding: 0 5px !important;
+    font-size: 15px !important;
+	}
+	/*service end*/
+
+	/*team start*/
+	.team-section {
+    padding-top: 90px !important;
+	padding-bottom: 90px !important;
+	}
+	.team-content {
+    margin-top: 60px !important;
+	}
+	.team-icon ul li a {
+    padding: 3px 3px !important;
+    width: 29px !important;
+    height: 29px !important;
+	}
+	/*team end*/
+
+	/*skill start*/
+	.skill-section {
+    padding-top: 90px !important;
+	padding-bottom: 90px !important;
+	}
+	.skill-content {
+    margin-top: 60px !important;
+	}
+	/*skill end*/
+
+	/*portfolio start*/
+	.portfolio-section {
+    padding-top: 90px !important;
+	padding-bottom: 90px !important;
+	}
+	.portfolio-content {
+    margin-top: 60px !important;
+	}
+	.portfolio-project_btn {
+    padding-top: 65px !important;
+	}
+	/*portfolio end*/
+
+	/*about start*/
+	.about-section {
+    padding-top: 90px !important;
+	padding-bottom: 90px !important;
+	}
+	.about-content {
+    margin-top: 60px !important;
+	}
+	.about-item-1{
+	margin-top: 25px !important;
+	}
+	.about-item-2{
+	margin-top: 25px !important;
+	}
+	.about-item-3{
+	margin-top: 25px !important;
+	}
+	.about-item-4{
+	margin-top: 25px !important;
+	}
+	/*about end*/
+
+	/*touch start*/
+	.touch-section {
+    padding-top: 90px !important;
+	padding-bottom: 90px !important;
+	}
+	.touch-content {
+    margin-top: 60px !important;
+	}
+	.touch-p{
+		padding: 0 40px;
+	}
+	/*touch end*/
+
+	/*footer start*/
+	.footer-menu li a {
+    margin-right: 25px !important;
+    font-size: 20px !important; 
+	}
+	/*footer start*/
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.service-p {
+    padding: 0 10px !important;
+	}
+	
+}
+
+ /*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+ /*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}

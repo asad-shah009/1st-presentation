@@ -1,0 +1,338 @@
+/*font declaration start*/
+@font-face{
+	font-family: TitilliumWeb-Bold;
+	src:url(../fonts/TitilliumWeb/TitilliumWeb-Bold.ttf);
+}
+@font-face{
+	font-family: TitilliumWeb-Italic;
+	src:url(../fonts/TitilliumWeb/TitilliumWeb-Italic.ttf);
+}
+@font-face{
+	font-family: TitilliumWeb-Regular;
+	src:url(../fonts/TitilliumWeb/TitilliumWeb-Regular.ttf);
+}
+@font-face{
+	font-family: TitilliumWeb-SemiBold;
+	src:url(../fonts/TitilliumWeb/TitilliumWeb-SemiBold.ttf);
+}
+@font-face{
+	font-family: TitilliumWeb-Light;
+	src:url(../fonts/TitilliumWeb/TitilliumWeb-Light.ttf);
+}
+/*font declaration end*/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*header start*/
+header{
+	padding-top: 55px;
+	background-color: #87509c;
+}
+.logo{}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+	padding: 0 20px !important;
+	font-family: TitilliumWeb-Regular;
+	font-size: 16px;
+	color: #fff !important;
+	text-transform: uppercase;
+}
+.menu ul li:last-child a{
+	/*padding-right: 0 !important;*/
+}
+.menu ul li a:hover {
+	background-color: #643a79;
+	border-radius: 4px;
+}
+.header-content-padding{
+	padding-top: 110px;
+	padding-bottom: 125px;
+}
+.common-title{
+	font-family: TitilliumWeb-Bold;
+	font-size: 42px;
+	color: #fff;
+}
+.header-btn{
+	margin: 0 auto;
+	margin-top: 45px;
+	padding: 18px 95px;
+	font-family: TitilliumWeb-SemiBold;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	width: auto;
+	height: auto;
+	display: block;
+	border-bottom: 5px solid #c86a43;
+	background: #eb7d4d;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
+.header-btn:focus {
+	box-shadow: none;
+}
+.header-btn:hover {
+	letter-spacing: 2px;
+	color: #fff;
+}
+/*header end*/
+
+/*services start*/
+.service-section{
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: #17c2a4;
+}
+.common-space{
+	letter-spacing: 3px;
+}
+.common-p{
+	margin-top: 10px !important;
+	font-family: TitilliumWeb-Regular;
+	font-size: 18px;
+	color: #fff;
+}
+.service-content{
+	margin-top: 80px;
+}
+.service-title{
+	margin-top: 45px;
+	font-family: TitilliumWeb-Bold;
+	font-size: 24px;
+	color: #fff;
+}
+.service-p{
+	margin-top: 25px;
+	padding: 0 31px;
+	font-family: TitilliumWeb-Light;
+	font-size: 16px;
+	color: #fff;
+}
+/*services end*/
+
+/*Our team start*/
+.team-section{
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: #e7f1f8;
+}
+.team-content{
+	margin-top: 80px;
+}
+.text-color{
+	color: #3c4761;
+}
+.designation{
+	font-family: TitilliumWeb-Regular;
+	font-size: 16px;
+	color: #30bae7;
+}
+.team-icon ul li a{
+	padding: 5px 5px;
+    width: 35px;
+    height: 35px;
+    background-color: #bdd1df;
+    color: #fff;
+    display: inline-block;
+    border-radius: 20px;
+    transition: .3s;
+}
+.team-icon ul li a:hover {
+	background-color: #fff;
+    color: #bdd1df;
+}
+/*Our team end*/
+
+/*skill start*/
+.skill-section{
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: #fff;
+}
+.skill-content{
+	margin-top: 80px;
+}
+.skill-item{
+	position: relative;
+}
+.skill-item img{
+	margin: 0 auto;
+}
+.skill-item span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: TitilliumWeb-Light;
+	font-size: 50px;
+	color: #3c4761;
+}
+.skill-title{
+	margin-top: 25px;
+	font-family: TitilliumWeb-Bold;
+	font-size: 24px;
+	color: #3c4761;
+	text-align: center;
+}
+/*skill end*/
+
+/*OUR PORTFOLIO start*/
+.portfolio-section{
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: #ffdd99;
+}
+.portfolio-content{
+	margin-top: 80px;
+}
+.portfolio-btn{}
+.portfolio-btn ul li a{
+	padding: 5px 5px;
+    width: 80px;
+    height: 40px;
+    background-color: #ebc985;
+    font-family: TitilliumWeb-Regular;
+    font-size: 18px;
+    color: #010101;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+    text-transform: uppercase;
+}
+.portfolio-btn ul li a:hover {
+	background-color: #fff;
+}
+.portfolio-content h3{
+	margin-top: 30px;
+	font-family: TitilliumWeb-Regular;
+	font-weight: 400;
+	font-size: 18px;
+	color: #393939;
+}
+.project_btn{
+	border-bottom: 5px solid #14a58c;
+	background: #17c2a4;
+}
+.project_btn:focus {
+	box-shadow: none;
+}
+.project_btn:hover {
+	letter-spacing: 2px;
+	color: #fff;
+}
+.portfolio-project_btn{
+	padding-top: 80px;
+}
+/*OUR PORTFOLIO end*/
+
+/*about start*/
+.about-section{
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: #d74680;
+}
+.about-content{
+	margin-top: 70px;
+}
+.about-item-3{
+	margin-top: 100px;
+}
+.about-item-4{
+	margin-top: 100px;
+}
+.about-text{
+	color: #fff;
+}
+.quotation{
+	margin-top: 12px;
+	font-family: TitilliumWeb-Italic;
+	font-size: 21px;
+}
+/*about end*/
+
+/*touch start*/
+.touch-section{
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: #3c5499;
+}
+.touch-content{
+	margin-top: 70px;
+}
+textarea{
+	margin-top: 30px;
+	width: 100%;
+}
+.touch-form {
+    font-family: TitilliumWeb-Regular;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    background-color: #273a71;
+    border: none;    
+}
+.touch-form:focus {
+    color: #fff;
+    background-color: #273a71;
+    border: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff !important;
+}
+.touch_btn {
+	margin-top: 60px;
+	background: #30bae7;
+    border-bottom: 5px solid #299ec5;
+}
+/*touch end*/
+
+
+/*footer start*/
+.footer-bg {
+	background: #344b8e;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.footer-menu{
+	padding: 0 !important;
+}
+.footer-menu li {
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.footer-menu li a {
+	margin-right: 70px;
+	font-family: TitilliumWeb-SemiBold;
+	font-size: 24px;
+	color: #fff;
+	text-decoration: none;
+}
+.footer-menu li:last-child a {
+	margin-right: 0 !important;
+}
+.footer-menu li a:hover {
+	color: #30bae7;
+	
+}
+/*footer end*/
